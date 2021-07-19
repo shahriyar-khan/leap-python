@@ -1,7 +1,7 @@
 import requests
 
 def get_desc_and_temp():
-    api_key = "9722baba4f7af43dc75fdb06a1de1bf2"
+    api_key = ""
     url = "https://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=imperial".format("Dallas", api_key)
 
     request = requests.get(url)
